@@ -1,18 +1,6 @@
-# -*- coding: utf-8 -*-
-"""
-Phase 1: Data Cleaning & Dual-Stream Representation
-- Cleans missing values ('?') and removes corrupted system records.
-- Extracts binary flags for sparse enterprise records.
-- Parses and strictly orders chronological event timestamps.
-- Separates data into Stream A (Traces) and Stream B (Case Intake Matrix).
-"""
 import pandas as pd
 import numpy as np
-from src.config import (
-    DATA_PATH, CLEANED_TRACES_PATH, ID_COL, STATE_COL, GROUP_COL,
-    TIMESTAMP_COL, RESOURCE_COL, INTAKE_CATEGORICAL, SPARSE_COLS,
-    TARGET_SLA, TARGET_BREACH
-)
+from src.config import ( DATA_PATH, CLEANED_TRACES_PATH, ID_COL, STATE_COL, GROUP_COL, TIMESTAMP_COL, RESOURCE_COL, INTAKE_CATEGORICAL, SPARSE_COLS, TARGET_SLA, TARGET_BREACH)
 
 def run_phase1():
     print("\n" + "="*70)

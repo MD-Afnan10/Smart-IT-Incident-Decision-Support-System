@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Phase 3: Case Feature Integration, Anomaly Profiling & Workload Clustering
-- Merges Stream B intake attributes with Phase 2 process metrics into a unified Case Feature Store.
-- Runs Isolation Forest to profile pathological/deviant incidents (RETAINED, NEVER DISCARDED!).
-- Runs K-Means clustering to segment tickets into operational workload archetypes.
-"""
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import IsolationForest

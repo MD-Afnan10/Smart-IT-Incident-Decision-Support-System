@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Phase 4: Root-Cause Pattern & Association Rule Mining
-- Discretizes continuous metrics (handoffs, wait hours, resolution time) into categorical bins.
-- Mines high-confidence IF-THEN rules targeting SLA breaches and ping-pong rework.
-- Exports human-interpretable symbolic rules with Support, Confidence, and Lift.
-"""
 import itertools
 import pandas as pd
 import numpy as np

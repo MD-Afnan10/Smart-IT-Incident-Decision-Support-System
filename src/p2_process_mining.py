@@ -1,11 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Phase 2: Global Process Mining & Workflow Bottleneck Discovery
-- Computes Directly-Follows Graphs (DFGs) of state and group transitions.
-- Detects ping-pong rework loops (Group A -> Group B -> Group A).
-- Quantifies idle dwell times in holding states ('Awaiting User Info', 'Awaiting Vendor').
-- Extracts per-ticket behavioral trace features for downstream ML and clustering.
-"""
 import os
 import pandas as pd
 import numpy as np

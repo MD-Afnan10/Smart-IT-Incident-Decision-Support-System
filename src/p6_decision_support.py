@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Phase 6: Operational Decision Support Dashboard
-- Combines Model Predictions (Phase 5) with Discovered Heuristic Rules (Phase 4).
-- Generates an actionable Dispatcher & Service Desk Manager queue.
-- Pairs each high-risk ticket with its transparent root-cause explanation and recommended routing.
-"""
 import pandas as pd
 from src.config import DECISION_DASHBOARD_PATH, ID_COL
 
